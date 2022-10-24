@@ -1,24 +1,7 @@
-# README
+# Interacting with the Flickr API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is an exercise in interacting with third party API's. This application performs the simple task of displaying all of the public Flickr photos from a user when given their user ID.
 
-Things you may want to cover:
+Project Features:
+* Access environmental variables via the Figaro gem
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
