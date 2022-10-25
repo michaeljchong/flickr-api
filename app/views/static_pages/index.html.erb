@@ -1,2 +1,6 @@
-<h1>StaticPages#index</h1>
-<p>Find me in app/views/static_pages/index.html.erb</p>
+<h1>Whose Flickr photos would you like to view?</h1>
+<%= form_with method: "get" do %>
+  <%= text_field_tag :user_id, nil, placeholder: "User ID" %>
+  <%= submit_tag "Search" %>
+<% end %>
+
