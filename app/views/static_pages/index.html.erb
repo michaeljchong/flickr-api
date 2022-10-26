@@ -8,6 +8,6 @@
 <% if params[:user_id].present? %>
   <h1>Showing <%=params[:user_id]%>'s photos</h1>
   <% @photos.each do |photo| %>
-    <img src=<%=Flickr.url_q(photo)%> alt=<%=photo.title%>>
+    <a href=<%=Flickr.url_short(photo)%>><img src=<%=Flickr.url_q(photo)%> alt=<%=photo.title%>></a>
   <% end %>
 <% end %>
