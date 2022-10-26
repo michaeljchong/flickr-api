@@ -4,4 +4,8 @@ This project is an exercise in interacting with third party API's. This applicat
 
 Project Features:
 * Access environmental variables via the Figaro gem
+* Use Flickr gem to interface with Flickr API
 
+Project Extensions:
+* Add styles
+* Display videos as well as images
