@@ -4,3 +4,7 @@
   <%= submit_tag "Search" %>
 <% end %>
 
+<% if params[:user_id].present? %>
+  <h1>Showing <%=params[:user_id]%>'s photos</h1>
+  <%= @photos %>
+<% end %>
