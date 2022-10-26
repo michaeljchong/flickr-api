@@ -1,6 +1,7 @@
 <h1>Whose Flickr photos would you like to view?</h1>
+<p>Default Flickr photostream: Flickr</p>
 <%= form_with method: "get" do %>
-  <%= text_field_tag :user_id, nil, placeholder: "User ID" %>
+  <%= text_field_tag :user_id, "Flickr", placeholder: "User ID" %>
   <%= submit_tag "Search" %>
 <% end %>
 
