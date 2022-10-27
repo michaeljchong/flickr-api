@@ -8,4 +8,5 @@ Project Features:
 
 Project Extensions:
 * Add styles
+* Setup remote hosting
 * Display videos as well as images
