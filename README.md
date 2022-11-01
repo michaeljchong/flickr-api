@@ -8,5 +8,6 @@ Project Features:
 
 Project Extensions:
 * Add styles
+* Integrate hotwire for single page application
 * Setup remote hosting
 * Display videos as well as images
